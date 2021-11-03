@@ -39,3 +39,12 @@ npm run storybook
 !["Deleting3"](https://github.com/tennaaro/scheduler/blob/master/docs/deleting3.png?raw=true)
 
 !["Deleting4"](https://github.com/tennaaro/scheduler/blob/master/docs/deleting4.png?raw=true)
+
+## Editing Interview
+!["Editing1"](https://github.com/tennaaro/scheduler/blob/master/docs/editingnew1.png?raw=true)
+
+!["Editing2"](https://github.com/tennaaro/scheduler/blob/master/docs/editing2.png?raw=true)
+
+!["Editing3"](https://github.com/tennaaro/scheduler/blob/master/docs/editing3.png?raw=true)
+
+!["Editing4"](https://github.com/tennaaro/scheduler/blob/master/docs/editing4.png?raw=true)
