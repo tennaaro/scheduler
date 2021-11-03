@@ -21,3 +21,8 @@ npm test
 ```sh
 npm run storybook
 ```
+## Homepage
+!["Homepage"](https://github.com/tennaaro/scheduler/blob/master/docs/homepage.png?raw=true)
+
+## Adding Interview
+!["AddingInteview"](https://github.com/tennaaro/scheduler/blob/master/docs/adding-interview.png?raw=true)
