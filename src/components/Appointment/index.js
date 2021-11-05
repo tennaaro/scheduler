@@ -25,11 +25,14 @@ export default function Appointment(props) {
   );
 
   function save(name, interviewer) {
-    transition(SAVING)
+    
     const interview = {
       student: name,
       interviewer
     };
+
+    transition(SAVING)
+
     props.bookInterview(props.id, interview)
       .then(() => {
         transition(SHOW)
@@ -96,7 +99,7 @@ export default function Appointment(props) {
       {mode === ERROR_SAVE && (
         < Error
           message="Error on SAVE"
-          onClose={back}
+          onClose={() => transition(CREATE, true)}
           mode="ERROR_SAVE"
         />
       )}

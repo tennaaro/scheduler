@@ -22,8 +22,15 @@ export default function Form(props) {
   }
 
   function validate() {
+    if ((student === "") && (interviewer === null)) {
+      setError("Student and interviewer cannot be blank")
+    }
     if (student === "") {
       setError("Student name cannot be blank");
+      return;
+    }
+    if (interviewer === null) {
+      setError("Please choose an interviewer")
       return;
     }
     setError("");
@@ -35,7 +42,7 @@ export default function Form(props) {
     if(student === "") {
       //do something
     }
-    props.onSave(student, interviewer);
+    props.onSave(student, interviewer);1014
   };
   */
 
